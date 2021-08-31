@@ -56,7 +56,7 @@ class TreeNode
      * 
      * @return mixed
      */
-    public function  __call($method, $parameters)
+    public function  __call($method, $parameters) //TODO Может убрать?
 	{
         if(method_exists($this->tnObject, $method)){
             return call_user_func_array(array($this->tnObject, $method), $parameters);
