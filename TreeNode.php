@@ -73,7 +73,7 @@ class TreeNode
     }
 
     /**
-     * Получить дочерние узлы. //TODO отдавать по ссылке или нет? https://www.php.net/manual/ru/language.references.return.php
+     * Получить дочерние узлы.
      * @return TreeNode[]
      */
     public function getChildNodes(): array
