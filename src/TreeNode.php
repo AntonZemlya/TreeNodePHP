@@ -1,6 +1,6 @@
 <?php 
 
-namespace App\Lib\Tree;
+namespace Treenode;
 
 /**
  * Класс узла дерева Tree.
